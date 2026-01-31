@@ -1,9 +1,9 @@
-public class classes {
+public class AddNumbers {
 
     void add(int a, int b) {   
         int sum = a + b;
         System.out.println("Sum = " + sum);
-    
+    }
 
     public static void main(String[] args) {
 
@@ -13,6 +13,4 @@ public class classes {
         AddNumbers obj = new AddNumbers();
         obj.add(x, y);
     }
-}
-
 }
