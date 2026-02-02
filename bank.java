@@ -55,7 +55,7 @@ class details{
                 case 3: System.out.println("---------EXITING------");
                         break;
                 default : System.out.println("INVLAID CHOICE");
-                            break;
+                        break;
         }
     }while(choice!=3);
 

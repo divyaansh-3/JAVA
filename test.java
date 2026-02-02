@@ -9,9 +9,9 @@ class Employee {
 public class test {
     public static void main(String[] args) {
 
-        Student s = new Student();     // object 1
-        Employee e = new Employee();   // object 2
-        Student s2 = new Student();    // object 3
+        Student s = new Student();     
+        Employee e = new Employee();   
+        Student s2 = new Student();    
 
         System.out.println("Student name: " + s.name);
         System.out.println("Employee salary: " + e.salary);
