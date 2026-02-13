@@ -1,3 +1,4 @@
+package scenario;
 import java.util.Scanner;
 class details{
     private int acct_num = 138982364;
