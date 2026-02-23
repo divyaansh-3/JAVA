@@ -1,0 +1,19 @@
+package IV;
+
+public class except {
+    public static void main(String[] args){
+        try{
+            int[] n =new int[5];
+            int divisor =0;
+            for(int i=0;i<n.length;i++){
+                int res = n[i]/divisor;
+                System.out.println(res);
+            }
+        }
+        catch (ArithmeticException e){
+            throw new RuntimeException 
+            ("Error: Division by zero occured " , e);
+        }
+    }
+    
+}
