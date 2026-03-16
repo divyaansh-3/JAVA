@@ -12,8 +12,12 @@ class Employee{
     void display(){
         System.out.println("---------------------------");
         System.out.println("Employee name is : "+name);
-        System.out.println("Employee base_salary is : "+Base_salary);
-        System.out.println("Employee's final salary is : "+this.calculate_salary());
+        System.out.printf("Employee base_salary is : %.2f",Base_salary);
+        System.out.printf("\n");
+
+        System.out.printf("Employee's final salary is : %.2f",this.calculate_salary());
+          System.out.printf("\n");
+
         System.out.println("-----------------------------");
 
     }
@@ -30,8 +34,11 @@ class Manager extends Employee{
         System.out.println("-----------------------------");
         System.out.println("Employee name is : "+name);
         System.out.println(name+" is a Manager");
-        System.out.println(name+"'s base_salary is : "+Base_salary);
-        System.out.println(name+"'s final salary is : "+this.calculate_salary());
+        System.out.printf(name+"'s base_salary is : %.2f",Base_salary);
+        System.out.printf("\n");
+        System.out.printf(name+"'s final salary is : %.2f",this.calculate_salary());       
+         System.out.printf("\n");
+
         System.out.println("-----------------------------");
 
 
@@ -50,8 +57,12 @@ class Manager extends Employee{
         System.out.println("-----------------------------");
         System.out.println("Employee name is : "+name);
         System.out.println(name+" is an Executive");
-        System.out.println(name+"'s base_salary is : "+Base_salary);
-        System.out.println(name+"'s final salary is : "+this.calculate_salary());
+        System.out.printf(name+"'s base_salary is : %.2f",Base_salary);
+                System.out.printf("\n");
+
+        System.out.printf(name+"'s final salary is : %.2f",this.calculate_salary());
+                System.out.printf("\n");
+
          System.out.println("-----------------------------");
 
 

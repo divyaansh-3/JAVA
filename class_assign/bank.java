@@ -45,15 +45,27 @@ class FixedAccount extends SavingsAccount{
 public class bank{
     public static void main(String[] args){
 
+        Account acc = new Account(59000);
+
         SavingsAccount a = new FixedAccount(60000);
         Account b = new SavingsAccount(80000);
 
         double interest = b.calculate_Interest();
+        double res = acc.calculate_Interest();
 
         double result = a.calculate_Interest();
 
-        System.out.println("Interest = " + result);
-        System.out.println("Savings Account Interest = " + interest);
+        System.out.printf("Interest = %.2f" , result);
+
+                System.out.printf("\n");
+                        System.out.printf("Interest = %.2f" , result);
+                                        System.out.printf("\n");
+
+
+
+        System.out.printf("Savings Account Interest = %.2f" , interest);
+                System.out.printf("\n");
+
 
     }
 }
