@@ -67,7 +67,7 @@ public class DigitalBookshelf {
         Scanner sc = new Scanner(System.in);
         Library lib = new Library();
 
-        // Default books
+        
         lib.addBook(new Book("978-01", "Java Basics", "James", true));
         lib.addBook(new Book("978-02", "DBMS", "Korth", true));
         lib.addBook(new Book("978-03", "OS", "Galvin", true));
